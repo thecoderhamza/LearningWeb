@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    --primary: #313c4e;
+    --secondary: #747577;
+    --dark: #0a0a0a;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto;
+}
+
+.top-section{
+    display: flex;
+    align-items: left;
+    gap: 50px;
+    padding: 50px;
+}
+.top-section img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.top-section h1{
+    color: var(--primary);
+    font-size: 48px;
+    font-weight: 400;
+
+}
+.top-section h3{
+    color: var(--secondary);
+    padding: 10px 0px 10px 0px;
+    font-size: 24px;
+    font-weight: 300;
+}
+.top-section p{
+    color: var(--dark);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 80%;
+}
+
+.contact-links{
+    text-align: center;
+    padding: 10px 40px 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    border-top: var(--dark) 2px solid;
+    border-bottom: var(--dark) 2px solid;
+}
+.contact-links a{
+    color: var(--dark);
+    text-decoration: none;
+    font-size: 20px;
+}
+.contact-links a i{
+    color: var(--primary);
+    padding-right: 10px;
+    font-size: 30px;
+}
