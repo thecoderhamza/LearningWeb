@@ -61,3 +61,55 @@
     padding-right: 10px;
     font-size: 30px;
 }
+
+.details{
+    display: flex;
+
+}
+.left-side{
+    width: 50%;
+    margin: 30px 25px 30px 50px;
+    color: var(--dark);
+}
+.section-heading{
+    color: var(--primary);
+    padding-bottom: 15px;
+}
+.company-name{
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--dark);
+}
+.duration-location{
+    display: flex;
+    justify-content: space-between;
+    color: var(--secondary);
+    padding-right: 25px;
+    padding-top: 10px;
+    font-style: italic;
+}
+.experience-text{
+    color: var(--secondary);
+    padding-bottom: 25px;
+}
+.DL-Edu{
+    padding-bottom: 25px;
+}
+
+
+.right-side{
+    width: 50%;
+    margin: 30px 25px 30px 50px;
+    color: var(--dark);
+}
+.skills{
+    color: var(--primary);
+    padding-bottom: 15px;
+}
+.skills-name{
+    color: var(--dark);
+    list-style: none;
+    display: grid;
+    grid-template-rows: auto;
+}
