@@ -113,3 +113,13 @@
     display: grid;
     grid-template-rows: auto;
 }
+
+.project-date{
+    color: var(--secondary);
+    padding-top: 10px;
+    font-style: italic;
+}
+.project-text{
+    color: var(--secondary);
+    padding-bottom: 25px;
+}
